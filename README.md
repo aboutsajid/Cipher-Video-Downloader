@@ -29,6 +29,7 @@ The current `Version 2.0.0` release moves the app to a new PySide6 desktop UI an
 
 Recommended GitHub release assets for `Version 2.0.0`:
 
+- `Cipher.Video.Downloader.Setup.2.0.0.exe`
 - `Cipher Video Downloader Version 2.0.0.exe`
 - `Cipher-Video-Downloader-Version-2.0.0-win64.zip`
 - `SHA256SUMS.txt`
@@ -73,6 +74,7 @@ powershell -ExecutionPolicy Bypass -File .\build_release.ps1
 ```
 
 This builds the `Version 2.0.0` Windows executable with:
+- installer output for easier upgrades
 - bundled app assets
 - bundled `yt-dlp`
 - bundled `FFmpeg`
@@ -91,5 +93,5 @@ It is now branded as `Cipher Video Downloader for YouTube`.
 ## Notes
 
 - the repo name is still old for continuity, but the current product name is `Cipher Video Downloader`
-- the website project card and fallback release links should point to the `v2.0.0` GitHub release
+- the website project card and fallback release links should point to the installer-first `v2.0.0` GitHub release
 - if browser handoff is already configured, re-running `register_cipheryt_protocol.ps1` after upgrading is recommended

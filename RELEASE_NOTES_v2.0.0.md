@@ -15,11 +15,13 @@ Cipher Video Downloader Version 2.0.0 is a major desktop refresh built on the ne
 
 ## Download
 
+- `Cipher.Video.Downloader.Setup.2.0.0.exe`
 - `Cipher Video Downloader Version 2.0.0.exe`
 - `Cipher-Video-Downloader-Version-2.0.0-win64.zip`
 
 ## Notes
 
+- this release now includes a proper Windows installer for cleaner setup and easier upgrades
 - this release bundles `yt-dlp` and `FFmpeg` for a more reliable out-of-box setup
-- existing users upgrading from older `Cipher YT Downloader` builds can replace their older app with this Version 2.0.0 release
+- the installer reuses the older app identity so existing `Cipher YT Downloader` installs can upgrade into `Cipher Video Downloader`
 - if browser handoff is already set up, re-running the protocol registration script is recommended after upgrading
